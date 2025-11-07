@@ -1,0 +1,25 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medical stethoscope icon -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Stethoscope body -->
+  <path d="M8 6C8 4.89543 8.89543 4 10 4H12C13.1046 4 14 4.89543 14 6V8C14 9.10457 13.1046 10 12 10H10C8.89543 10 8 9.10457 8 8V6Z" fill="url(#gradient)"/>
+  
+  <!-- Stethoscope tubes -->
+  <path d="M11 10V14C11 16.2091 12.7909 18 15 18H17" stroke="url(#gradient)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M18 6C18 4.89543 18.8954 4 20 4H22C23.1046 4 24 4.89543 24 6V8C24 9.10457 23.1046 10 22 10H20C18.8954 10 18 9.10457 18 8V6Z" fill="url(#gradient)"/>
+  <path d="M21 10V14C21 16.2091 19.2091 18 17 18" stroke="url(#gradient)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Stethoscope chest piece -->
+  <circle cx="17" cy="22" r="4" fill="url(#gradient)"/>
+  <circle cx="17" cy="22" r="2" fill="white"/>
+  
+  <!-- Medical cross accent -->
+  <path d="M16 21H18M17 20V22" stroke="url(#gradient)" stroke-width="1" stroke-linecap="round"/>
+</svg>
+
